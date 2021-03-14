@@ -22,6 +22,15 @@ body {
   padding: 0;
   min-height: 100%;
   font-size: 18px;
+  line-height: 1.4;
+}
+
+p {
+  color: var(--color-gray-1)
+}
+
+strong {
+  color: var(--color-green)
 }
 
 .max-width-wrapper {
@@ -31,12 +40,7 @@ body {
   margin-right: auto;
 }
 
-p {
-  color: var(--color-gray-1)
-}
-strong {
-  color: var(--color-green)
-}
+
 .border-bottom {
   border-bottom: 8px solid var(--color-gray-3);
 }
@@ -46,14 +50,13 @@ strong {
   padding-block-end: 48px;
 }
 
-.intro-chunk h1 {
+.intro-chunk .title {
   font-size: 2rem;
   padding-block-end: 32px;
 }
 
 .intro-chunk p {
   font-size: 1.5rem;
-  line-height: 1.4;
   max-width: 480px;
 }
 
@@ -66,13 +69,11 @@ main {
 
 main .card {
   background-color: var(--color-white);
-  padding: 32px 32px 8px;
+  padding: 32px;
   font-size: 1.25rem;
-  line-height: 1.4;
   margin-left: -32px;
   margin-right: -32px;
 }
-
 
 .indented-heading {
   font-size: 1.5rem;
@@ -80,8 +81,7 @@ main .card {
   border-bottom: 8px solid var(--color-gold-dark);
   width: fit-content;
   padding-block: 24px;
-  padding-inline: 32px;
+  padding-inline: 48px;
   margin-block-start: -24px;
   margin-inline-start: -48px;
 }
-
